@@ -1,30 +1,34 @@
 # Acceptance Tests
 
 ## Test Suite Overview
-This document outlines the acceptance criteria and test cases for the project.
+Document the acceptance criteria and test cases for the project.
 
-## Test Categories
+## Functional Requirements Tests
 
-### Functional Tests
-- [ ] Feature A works as specified
-- [ ] Feature B meets requirements
-- [ ] Integration between components succeeds
+### Test 1: [Feature Name]
+- **Given:** [Initial state]
+- **When:** [Action performed]
+- **Then:** [Expected outcome]
 
-### Performance Tests
-- [ ] System responds within acceptable time limits
-- [ ] Memory usage stays within bounds
+### Test 2: [Feature Name]
+- **Given:** [Initial state]
+- **When:** [Action performed]
+- **Then:** [Expected outcome]
 
-### Edge Cases
-- [ ] Null/empty input handling
-- [ ] Boundary value testing
-- [ ] Error recovery
+## Performance Tests
 
-## Test Execution
-Run tests with: `npm test` or `pytest`
+### Test 3: [Performance Requirement]
+- **Criteria:** [Measurable threshold]
+- **Expected Result:** [Target metric]
 
-## Success Criteria
-All tests must pass before deployment.
+## Edge Cases
 
----
+### Test 4: [Edge Case]
+- **Scenario:** [Description]
+- **Expected Behavior:** [Outcome]
 
-*Note: Add specific test cases based on your project requirements.*
+## Sign-off
+
+- [ ] All tests passed
+- [ ] Requirements verified
+- [ ] Ready for deployment

@@ -1,42 +1,37 @@
-
 # Deployment
 
 ## Overview
-This section covers the deployment process for the CS351 Project0.
+This document outlines the deployment process for the CS351 Project0 application.
 
 ## Prerequisites
-- Node.js installed
-- Environment variables configured
-- Build artifacts generated
+- [List environment requirements]
+- [List dependencies]
 
 ## Deployment Steps
 
-1. **Build the Project**
-    ```bash
-    npm run build
-    ```
-
-2. **Configure Environment**
-    - Set necessary environment variables
-    - Verify configuration settings
-
-3. **Deploy**
-    ```bash
-    npm run deploy
-    ```
-
-4. **Verify Deployment**
-    - Test endpoints
-    - Check logs for errors
-    - Validate functionality
-
-## Rollback
-If issues occur, use:
+### 1. Build
 ```bash
-npm run rollback
+# Build the application
+npm run build
 ```
 
-## Troubleshooting
-- Check deployment logs
-- Verify environment configuration
-- Ensure all dependencies are installed
+### 2. Configure
+- Set environment variables
+- Configure application settings
+
+### 3. Deploy
+```bash
+# Deploy to target environment
+npm run deploy
+```
+
+## Verification
+- [ ] Application is running
+- [ ] Health checks pass
+- [ ] Logs are being generated
+
+## Rollback
+[Document rollback procedures]
+
+## Support
+[Contact information for deployment support]

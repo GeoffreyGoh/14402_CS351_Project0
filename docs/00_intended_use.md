@@ -1,19 +1,31 @@
 # Intended Use
 
-## TwoSumArray
+## Purpose
+This document outlines the intended use and scope of the CSA AI Software Development Project 0.
 
-The `TwoSumArray` function is intended to find two elements in an array that sum to a target value using a brute-force approach. It iterates through the array with nested loops to compare all pairs of elements.
+## Primary Goals
+- Define the project objectives and deliverables
+- Establish guidelines for AI-assisted software development
+- Document best practices and standards
 
-**Use cases:**
-- Educational purposes to demonstrate basic array traversal
-- Small datasets where performance is not critical
-- When memory usage should be minimized
+## Target Audience
+- Development team members
+- Project stakeholders
+- Code reviewers
 
-## TwoHashTable
+## Key Areas
+- **Development**: AI-assisted coding and implementation
+- **Testing**: Validation and quality assurance
+- **Documentation**: Clear and maintainable code documentation
 
-The `TwoHashTable` function is intended to find two elements that sum to a target value using a hash table for optimized lookups. It trades memory for improved time complexity.
+## Scope
+This project focuses on [specify your project focus here].
 
-**Use cases:**
-- Production environments with larger datasets
-- Performance-critical applications
-- When O(n) time complexity is preferred over O(n²)
+## Do Not Use For
+- Production systems without proper testing
+- Bypassing security review processes
+- Generating unreviewed or unverified code
+
+---
+
+*Last Updated: [Date]*

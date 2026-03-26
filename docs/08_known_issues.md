@@ -1,22 +1,26 @@
 # Known Issues
 
-## Current Limitations
+## Current Release
 
-- [ ] Issue 1: Description of the first known issue
-- [ ] Issue 2: Description of the second known issue
-- [ ] Issue 3: Description of the third known issue
+### Build & Compilation
+- [ ] Issue description and impact
+- [ ] Workaround (if available)
 
-## Workarounds
+### Runtime
+- [ ] Issue description and impact
+- [ ] Workaround (if available)
 
-| Issue | Workaround |
-|-------|-----------|
-| Issue 1 | Temporary solution or steps to mitigate |
-| Issue 2 | Temporary solution or steps to mitigate |
+### Performance
+- [ ] Issue description and impact
+- [ ] Workaround (if available)
 
-## Reported By
+## Resolved Issues
 
-Document any issues reported by users or team members with dates and versions affected.
+### Version X.X.X
+- Fixed issue description
 
-## To Be Resolved
+---
 
-Prioritize and track which issues are scheduled for the next release.
+**Last Updated:** [Date]
+
+**Report Issues:** [Link to issue tracker]

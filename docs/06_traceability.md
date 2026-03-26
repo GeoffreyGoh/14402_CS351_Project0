@@ -1,36 +1,25 @@
 # Traceability
 
 ## Overview
-This document establishes traceability between requirements, design, implementation, and testing artifacts.
+This document establishes traceability between requirements, design, implementation, and testing artifacts for the CSA AI Software Development project.
 
 ## Traceability Matrix
 
-| Requirement ID | Description | Design Doc | Implementation | Test Cases |
+| Requirement ID | Requirement Description | Design Element | Implementation | Test Case |
 |---|---|---|---|---|
-| REQ-001 | [Requirement description] | [Reference] | [File/Module] | [Test ID] |
-| REQ-002 | [Requirement description] | [Reference] | [File/Module] | [Test ID] |
+| REQ-001 | [Description] | [Design Component] | [Code Reference] | [Test ID] |
+| REQ-002 | [Description] | [Design Component] | [Code Reference] | [Test ID] |
 
-## Requirements Mapping
+## Requirement to Design Mapping
+- Define how each requirement maps to design decisions
 
-### Functional Requirements
-- Document how each functional requirement maps to design decisions and code
+## Design to Implementation Mapping
+- Link design components to implementation modules
 
-### Non-Functional Requirements
-- Document performance, security, and other non-functional requirements
+## Implementation to Test Mapping
+- Connect code implementations to corresponding test cases
 
-## Design to Implementation
-
-- Link design documents to actual implementation files
-- Include module and class references
-
-## Implementation to Testing
-
-- Map code components to corresponding test cases
-- Ensure test coverage for all requirements
-
-## Change Log
-
-| Date | Change | Impact | Status |
-|---|---|---|---|
-| [Date] | [Description] | [Affected Items] | [Status] |
-
+## Notes
+- Update this matrix as requirements, design, and implementation evolve
+- Maintain consistency across all artifacts
+- Review traceability during code reviews and testing phases
