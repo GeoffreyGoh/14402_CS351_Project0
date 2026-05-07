@@ -2,7 +2,7 @@ CXX      ?= g++
 CXXFLAGS ?= -std=c++17 -Wall -Wextra -O2
 
 SRC_DIR   := src
-TEST_DIR  := tests
+TEST_DIR  := test
 BUILD_DIR := build
 
 LIB_SRC   := $(SRC_DIR)/twosum.cpp
