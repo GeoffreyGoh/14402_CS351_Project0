@@ -1,42 +1,27 @@
+//TwoSumArray and TwoSumHashMap implementations    
 #include <vector>
 #include <unordered_map>
 #include <algorithm>
 
-// Approach 1: Using sorted array (two pointers)
-std::vector<int> twoSumArray(std::vector<int>& nums, int target) {
-    std::vector<int> indices(nums.size());
-    for (int i = 0; i < nums.size(); i++) {
-        indices[i] = i;
-    }
-    
-    std::sort(indices.begin(), indices.end(), [&](int a, int b) {
-        return nums[a] < nums[b];
-    });
-    
-    int left = 0, right = nums.size() - 1;
-    while (left < right) {
-        int sum = nums[indices[left]] + nums[indices[right]];
-        if (sum == target) {
-            return {indices[left], indices[right]};
-        } else if (sum < target) {
-            left++;
-        } else {
-            right--;
-        }
-    }
-    return {};
+std::vector<int> TwoSumArray(const std::vector<int>& nums, int target) {
+   for (int i = 0; i < nums.size(); i++) {
+      for (int j = i + 1; j < nums.size(); j++) {
+         if (nums[i] + nums[j] == target) {
+            return {i, j};
+         }
+      }
+   }
+   return {};
 }
 
-// Approach 2: Using hash table
-std::vector<int> twoSumHashTable(std::vector<int>& nums, int target) {
-    std::unordered_map<int, int> map;
-    
-    for (int i = 0; i < nums.size(); i++) {
-        int complement = target - nums[i];
-        if (map.find(complement) != map.end()) {
-            return {map[complement], i};
-        }
-        map[nums[i]] = i;
-    }
-    return {};
+std::vector<int> TwoSumHashMap(const std::vector<int>& nums, int target) {
+   std::unordered_map<int, int> seen;
+   for (int i = 0; i < nums.size(); i++) {
+      int complement = target - nums[i];
+      if (seen.find(complement) != seen.end()) {
+         return {seen[complement], i};
+      }
+      seen[nums[i]] = i;
+   }
+   return {};
 }
